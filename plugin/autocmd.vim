@@ -46,12 +46,6 @@ let s:autocmds = [
       \    'pattern': 'words.abbr,words.dict',
       \    'action': '1,$sort u'
       \  },
-      \  {
-      \    'augroup': 'install_missing_plugins',
-      \    'events': 'VimEnter',
-      \    'pattern': '*',
-      \    'action': ':call VimInstallMissingPlugins()'
-      \  },
       \]
 " }}}
 
