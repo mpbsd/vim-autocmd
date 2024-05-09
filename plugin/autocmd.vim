@@ -63,5 +63,3 @@ function VimSetAutocmds(autocmds) abort
 endfunction
 
 call VimSetAutocmds(s:autocmds)
-
-" vim: set fileencoding=utf8: "
