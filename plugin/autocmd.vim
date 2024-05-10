@@ -14,8 +14,8 @@ augroup END
 
 augroup make_views_persistent_across_sessions
   autocmd!
-  autocmd BufWinLeave *.c,*.h,*.py,*.sh,*.tex,*.vim :mkview
-  autocmd BufWinEnter *.c,*.h,*.py,*.sh,*.tex,*.vim :silent! loadview
+  autocmd FileType c,h,python,sh,tex,vim :mkview
+  autocmd FileType c,h,python,sh,tex,vim :silent! loadview
 augroup END
 
 augroup get_iabbrevs_for_these_filetypes
